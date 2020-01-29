@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "treklite",
+    "slug": "treklite",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "host.exp.exponent",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.246260706348-3eajibjmd6ue9qkrranlrgenvokci2ec"
+        }
+      }
+    },
+    "android": {
+      "package": "host.exp.exponent",
+      "googleServicesFile": "./google-services.json"
+    }
+  }
+}
